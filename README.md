@@ -51,6 +51,8 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
    nombre
    ```
 
+  ![alt text](img/Ejercicio_2.png)
+
 ## Parte 3: Tu primer archivo HTML + JavaScript
 
 1. Crea una carpeta llamada `00JSyEntorno` dentro de tu espacio de trabajo.
@@ -75,6 +77,8 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
 4. Desde VSCode abre el archivo `hola.html` en tu navegador.
 5. Observa el resultado en la consola del navegador.
 
+  ![alt text](img/Ejercicio_3.png)
+
 ## Parte 4: Experimenta
 
 - Cambia el valor de la variable `nombre` por el tuyo y recarga la página.
@@ -87,6 +91,7 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
    ```
 - Publica tu proyecto en el repositorio de GitHub y usa GitHub Pages para alojarlo. Sigue [esta guía](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site) para hacerlo.
 
+![alt text](img/Ejercicio_4.png)
 
 ## parte 5: formulario HTML + JavaScript
 1. Crea un archivo llamado `formulario.html` en la misma carpeta `00JSyEntorno`.
@@ -123,6 +128,8 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
    });
    ```
 6. Desde VSCode abre `formulario.html` en tu navegador y prueba el formulario.
+
+  ![alt text](img/Ejercicio_5.png)
 
    
 ## Parte 6: Preguntas de reflexión
