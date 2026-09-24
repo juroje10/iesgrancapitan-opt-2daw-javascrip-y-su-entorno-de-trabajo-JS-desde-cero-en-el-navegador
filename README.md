@@ -79,6 +79,8 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
 
   ![alt text](img/Ejercicio_3.png)
 
+  - Enlace a la acctividad --> [index.html](00JSyEntorno/Ejercicio_hola/index.html)
+
 ## Parte 4: Experimenta
 
 - Cambia el valor de la variable `nombre` por el tuyo y recarga la página.
@@ -131,6 +133,8 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
 
   ![alt text](img/Ejercicio_5.png)
 
+
+  - Enlace a la acctividad --> [index.html](00JSyEntorno/Ejercicio_formulario/index.html)
    
 ## Parte 6: Preguntas de reflexión
 
