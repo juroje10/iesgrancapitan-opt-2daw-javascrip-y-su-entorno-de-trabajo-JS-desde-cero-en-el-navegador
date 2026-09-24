@@ -127,18 +127,51 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
    
 ## Parte 6: Preguntas de reflexión
 
-1. ¿Qué hace `console.log`?
-2. ¿Qué ocurre si cambias el valor de la variable desde la consola? ¿Se puede?
-3. ¿Para qué sirve la consola del navegador en este contexto?
-4. Para qué sirve el archivo HTML en este contexto?
-5. ¿Por qué es una buena práctica separar el código JavaScript del HTML?
-6. Por qué se llama Vanilla JavaScript?
-7. Cuándo se usa JavaScript puro y cuándo se usan frameworks o librerías como REACT?
-8. Cómo se define una función en JS
-9. Sobre el código demuestra la diferencia entre let y const
-10. Indica en el código:
-   1. Si puede evitarse el uso de let. Qué hace
-   2. Cuántos eventos hay en el código, cuáles son y para qué sirven
+1. **¿Qué hace `console.log`?**
+
+    Muestra en la consola del navegador lo que le pases, como texto, números o variables. Sirve para comprobar que el código funciona.
+
+2. **¿Qué ocurre si cambias el valor de la variable desde la consola? ¿Se puede?**
+    
+    Sí, se puede. La variable cambia mientras la página esté abierta, pero el archivo no se modifica y al recargar vuelve al valor original. Con una `const` daría error.
+
+3. **¿Para qué sirve la consola del navegador en este contexto?**
+    
+    Para probar código rápido, ver los mensajes de `console.log` y detectar errores del código.
+
+4. **¿Para qué sirve el archivo HTML en este contexto?**
+    
+    Define la estructura y el contenido de la página y carga el archivo JavaScript para que el navegador lo ejecute.
+
+5. **¿Por qué es una buena práctica separar el código JavaScript del HTML?**
+    
+    Porque el código queda más ordenado, es más fácil de leer y mantener, y el mismo JS se puede reutilizar en varias páginas.
+
+6. **¿Por qué se llama Vanilla JavaScript?**
+    
+    Porque es JavaScript puro, sin librerías ni frameworks. Vainilla es el sabor básico, sin añadidos.
+
+7. **¿Cuándo se usa JavaScript puro y cuándo se usan frameworks o librerías como React?**
+    
+    JavaScript puro se usa en proyectos pequeños y sencillos. React se usa en aplicaciones grandes con muchas pantallas y componentes que se repiten, porque ayuda a organizar el código.
+
+8. **¿Cómo se define una función en JS?**
+    
+    Con la palabra `function`, seguida de un nombre, unos parámetros entre paréntesis y el cuerpo entre llaves.
+
+9. **Sobre el código, demuestra la diferencia entre `let` y `const`**
+  
+    Con `let` se puede cambiar el valor de la variable después de declararla. Con `const` no se puede reasignar y da error: "Assignment to constant variable". En el código, `nombre` en `hola.html` está con `let` y en `formulario.js` con `const`.
+
+10. **Indica en el código:**
+
+    1. **Si puede evitarse el uso de `let`. Qué hace**
+        
+        Sí se puede evitar, porque `nombre` no cambia y podría ser `const`. `let` declara una variable cuyo valor se puede cambiar después.
+    
+    2. **Cuántos eventos hay en el código, cuáles son y para qué sirven**
+   
+        Hay dos: `DOMContentLoaded`, que salta cuando el HTML termina de cargar y asegura que los elementos ya existen, y `submit`, que salta al enviar el formulario y muestra el saludo en la página.
 
 
 
